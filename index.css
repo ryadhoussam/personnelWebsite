@@ -1,0 +1,92 @@
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+@keyframes x {
+    0%{
+        color: #191919;
+    }
+    10%{
+        color: #D82148;
+    }
+}
+@keyframes moving{
+    from{
+        padding-left: 30px;
+    }
+    to{
+        padding-left: 0px;
+    }
+  
+}
+#logo{
+    color: #D82148;
+    font-size:30px;
+    font-weight: bold;
+    margin-left: 20px;
+       
+}
+.intro{
+    font-weight: bold;
+    margin-left: 30px;
+    color: white;
+    animation: moving 2s;
+    padding-top: 230px;
+    font-size: 40px;
+}
+.me{
+    font-size: 55px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: #D82148;
+    animation: x 8s;
+    
+}
+.some{margin-left: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    animation: moving 2s;
+}
+#image{
+    position: absolute;
+    right: 100px;
+    top: 150px;
+}
+.info{
+    margin-top: 350px;
+}
+#project{
+    text-align: center;
+    font-weight: bold;
+    
+    color: #D82148;
+    border: solid;
+    border-color: #D82148;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-right-width:0px;
+}
+.project2{
+    margin-top: 80px;
+    
+}
+.social{
+    display: flex;
+}
+.titlecontact{
+    text-align: center;
+    color: #191919;
+    padding-top: 200px;
+    border: solid;
+    border-color: #D82148;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-right-width:0px;
+}
+span{
+    color:white;
+    margin-left: 90px;
+    
+}
